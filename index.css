@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 1440px;
+    height: 960px;
+    background-color:hsl(0, 0%, 8%);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+}
+
+.card--container {
+    position: absolute;
+    top: 174px;
+    left: 528px;
+    padding: 40px;
+    background-color:hsl(0, 0%, 12%);
+    border-radius: 12px;
+    width: 384px;
+    height: 611px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card--picture {
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+}
+
+.card--content {
+    width: 304px;
+    height: 61px;
+    margin-top: 24px;
+}
+
+.card--title {
+    line-height: 150%;
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4px;
+}
+
+.card--description {
+    font-size: 14px;
+    line-height: 150%;
+    font-weight: bold;
+    color: hsl(75, 94%, 57%);
+    display: flex;
+    justify-content: center;
+}
+
+.card--bio {
+    color: white;
+    font-size: 14px;
+    line-height: 150%;
+    padding: 24px;
+    height: 21px;
+}
+
+.card--name {
+    color: white;
+    width: 304px;
+    height: 289px;
+    cursor: pointer;
+}
+
+.card--links {
+    padding: 14px;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 8px;
+    margin: 16px 0;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.card--links:active {
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+
+}
+
+@media screen and (max-width: 767.98px) {
+    html, body {
+        width: 100%;
+        height: 100%;
+    }
+    main {
+        width: 100%;
+        height: 812px;
+    }
+
+    .card--container {
+        top: 116px;
+        left: 26px;
+        padding: 24px;
+        width: 88%;
+        height: 579px;
+    }
+
+    .card--bio {
+      width: 279px;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    
+    }
+
+    .card--content {
+        width: 279px;
+        margin: 24px 0;
+    }
+
+    .card--title {
+        margin-bottom: 4px;
+    }
+
+}
