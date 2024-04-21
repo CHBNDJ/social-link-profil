@@ -69,7 +69,6 @@ html, body {
 .card--name {
     color: white;
     width: 304px;
-    height: 289px;
     cursor: pointer;
 }
 
@@ -101,7 +100,6 @@ html, body {
         left: 26px;
         padding: 24px;
         width: 88%;
-        height: 579px;
     }
 
     .card--bio {
